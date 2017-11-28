@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/toolisticon/camel-spring-boot-testutils.svg?branch=master)](https://travis-ci.org/toolisticon/camel-spring-boot-testutils.svg?branch=master)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule)
 
-This projects supplies a small library making testing of Apache Camel components. 
+This projects supplies a small library making testing of Apache Camel components easier. 
 
 ## Installation
 
@@ -19,8 +19,9 @@ Put the following dependency to your Maven POM file:
 
 ### Test rule
 
-There is a lot written about Camel Spring Testing, but all approaches are based on inheritance 
-or using a special runner. If this is not an option fo you, you may use the test rule for this:
+There is a lot written about Camel Spring Testing, but all approaches are based on inheritance (`SpringTestSupport`)
+or using a special runner (`CamelSpringBootRunner`). There are good reasons for doing so, but if you are not able to do so,
+for example using a different runner , you may use the supplied JUnit test rule for this:
 
     ...
     import org.springframework.test.context.junit4.rules.CamelSpringClassRule;
@@ -48,6 +49,8 @@ or using a special runner. If this is not an option fo you, you may use the test
       
 ### ExcludeRoutes
 
-There is a standard annotation to exclude routes `org.apache.camel.test.spring.ExcludeRoutes`. This is not 
-working using a standard Springboot test. If you use this library, the support of this restored. Just annotate
-the `org.apache.camel.test.spring.ExcludeRoutes` to your test class containing the `CamelSpringClassRule`. 
+There is a standard annotation in Camel-Spring to exclude routes `org.apache.camel.test.spring.ExcludeRoutes`. This is not 
+working using a standard Springboot test. If you use this library, the support is restored. Just annotate
+the `org.apache.camel.test.spring.ExcludeRoutes` to your test class containing the `CamelSpringClassRule`
+and list the excluded route classes.
+ 

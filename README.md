@@ -15,9 +15,7 @@ or using a special runner. If this is not an option fo you, you may use the test
     import org.springframework.test.context.junit4.rules.SpringMethodRule;
   
   
-    @SpringBootTest(classes = {SimpleCamelApplication.class}, properties = { "greeting = Hello foo" })
-    @ExcludeRoutes(AnotherCamelRouter.class)
-    @Slf4j
+    @SpringBootTest
     public class SimpleRuleTest {
     
         @ClassRule

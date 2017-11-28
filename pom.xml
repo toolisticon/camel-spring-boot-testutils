@@ -32,7 +32,7 @@
 
         <lombok.version>1.16.18</lombok.version>
         <assertj.version>3.8.0</assertj.version>
-        <project.github.coordinates>camel-spring-boot-testutils</project.github.coordinates>
+        <project.github.coordinates>toolisticon/camel-spring-boot-testutils</project.github.coordinates>
     </properties>
 
     <dependencyManagement>

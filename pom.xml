@@ -8,6 +8,7 @@
         <groupId>io.toolisticon.maven</groupId>
         <artifactId>maven-oss-parent</artifactId>
         <version>0.4</version>
+        <relativePath />
     </parent>
 
     <name>camel-spring-boot-testutils-parent</name>

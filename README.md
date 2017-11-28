@@ -1,7 +1,19 @@
 # Camel Springboot Test Utils
 [![Build Status](https://travis-ci.org/toolisticon/camel-spring-boot-testutils.svg?branch=master)](https://travis-ci.org/toolisticon/camel-spring-boot-testutils.svg?branch=master)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule)
 
 This projects supplies a small library making testing of Apache Camel components. 
+
+## Installation
+
+Put the following dependency to your Maven POM file:
+
+    <dependency>
+      <groupId>io.toolisticon.camel</groupId>
+      <artifactId>camel-spring-boot-test-rule</artifactId>
+      <version>0.0.1</version>
+      <scope>test</scope>
+    </dependency>
 
 ## Features
 
@@ -39,14 +51,3 @@ or using a special runner. If this is not an option fo you, you may use the test
 There is a standard annotation to exclude routes `org.apache.camel.test.spring.ExcludeRoutes`. This is not 
 working using a standard Springboot test. If you use this library, the support of this restored. Just annotate
 the `org.apache.camel.test.spring.ExcludeRoutes` to your test class containing the `CamelSpringClassRule`. 
-
-## Installation
-
-Put the following dependency to your Maven POM file:
-
-    <dependency>
-      <groupId>io.toolisticon.camel</groupId>
-      <artifactId>camel-spring-boot-test-rule</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <scope>test</scope>
-    </dependency>

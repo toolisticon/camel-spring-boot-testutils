@@ -4,7 +4,12 @@
 
 This projects supplies a small library making testing of Apache Camel components easier. 
 
-## Installation
+## Installation and requirements
+
+Minimal tested version:
+
+- Apache Camel 2.20.1
+- Springboot 1.5.8-RELEASE
 
 Put the following dependency to your Maven POM file:
 

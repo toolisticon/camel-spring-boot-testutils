@@ -13,7 +13,7 @@
   <name>camel-spring-boot-testutils-parent</name>
   <groupId>io.toolisticon.camel</groupId>
   <artifactId>camel-spring-boot-testutils-parent</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>pom</packaging>
 
   <modules>
@@ -40,7 +40,7 @@
     <connection>scm:git:git@github.com:${project.github.coordinates}.git</connection>
     <developerConnection>scm:git:git@github.com:${project.github.coordinates}.git</developerConnection>
     <url>git@github.com:/${project.github.coordinates}.git</url>
-    <tag>HEAD</tag>
+    <tag>camel-spring-boot-testutils-parent-0.0.2</tag>
   </scm>
 
   <dependencyManagement>

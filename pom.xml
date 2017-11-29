@@ -18,6 +18,7 @@
 
   <modules>
     <module>rule</module>
+    <module>examples/simple</module>    
   </modules>
 
   <properties>
@@ -62,22 +63,5 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <profiles>
-    <profile>
-      <id>examples</id>
-      <!-- deactivate on release -->
-      <activation>
-        <activeByDefault>true</activeByDefault>
-        <property>
-          <name>performRelease</name>
-          <value>false</value>
-        </property>
-      </activation>
-      <modules>
-        <module>examples/simple</module>
-      </modules>
-    </profile>
-  </profiles>
 
 </project>

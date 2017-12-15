@@ -61,5 +61,21 @@
     </dependency>
 
   </dependencies>
-
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>cobertura-maven-plugin</artifactId>
+          <configuration>
+              <instrumentation>
+                  <ignoreTrivial>true</ignoreTrivial>
+              </instrumentation>
+              <format>xml</format>
+              <maxmem>256m</maxmem>
+              <!-- aggregated reports for multi-module projects -->
+              <aggregate>true</aggregate>
+          </configuration>
+      </plugin>      
+    </plugins>
+  </build>
 </project>

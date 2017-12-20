@@ -17,7 +17,7 @@ Put the following dependency to your Maven POM file:
     <dependency>
       <groupId>io.toolisticon.camel</groupId>
       <artifactId>camel-spring-boot-test-rule</artifactId>
-      <version>0.0.4</version>
+      <version>0.0.3</version>
       <scope>test</scope>
     </dependency>
 

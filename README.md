@@ -1,6 +1,7 @@
 # Camel Springboot Test Utils
 [![Build Status](https://travis-ci.org/toolisticon/camel-spring-boot-testutils.svg?branch=master)](https://travis-ci.org/toolisticon/camel-spring-boot-testutils)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule)
+[![codecov](https://codecov.io/gh/toolisticon/camel-spring-boot-testutils/branch/master/graph/badge.svg)](https://codecov.io/gh/toolisticon/camel-spring-boot-testutils)
 
 This projects supplies a small library making testing of Apache Camel components easier. 
 
@@ -16,7 +17,7 @@ Put the following dependency to your Maven POM file:
     <dependency>
       <groupId>io.toolisticon.camel</groupId>
       <artifactId>camel-spring-boot-test-rule</artifactId>
-      <version>0.0.2</version>
+      <version>0.0.4</version>
       <scope>test</scope>
     </dependency>
 

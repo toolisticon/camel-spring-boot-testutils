@@ -1,4 +1,6 @@
 # Camel Springboot Test Utils
+
+[![unmaintained](https://img.shields.io/badge/lifecycle-UNMAINTAINED-red.svg)](https://github.com/holisticon#unmaintained)
 [![Build Status](https://travis-ci.org/toolisticon/camel-spring-boot-testutils.svg?branch=master)](https://travis-ci.org/toolisticon/camel-spring-boot-testutils)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.camel/camel-spring-boot-test-rule)
 [![codecov](https://codecov.io/gh/toolisticon/camel-spring-boot-testutils/branch/master/graph/badge.svg)](https://codecov.io/gh/toolisticon/camel-spring-boot-testutils)
